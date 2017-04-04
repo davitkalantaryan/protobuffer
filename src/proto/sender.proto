@@ -1,0 +1,9 @@
+syntax = "proto2";
+
+import "senderreceiver.proto";
+
+message SearchRequestSndr {
+
+	optional SearchRequest sr=6;
+}
+

@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+message SearchRequest {
+  required int32 incremental = 1;
+  optional string some_string = 2;
+  required int32 page_number = 3;
+  required int32 result_per_page = 4;
+}
